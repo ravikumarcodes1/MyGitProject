@@ -1,0 +1,102 @@
+<html>
+	<head>
+		<style>
+
+			body {
+				font-family: sans-serif;
+			}
+
+			.TestCaseImplTitle {
+				color: blue;
+				font: 0.85em arial;
+				font-weight: bold;
+			}
+
+			.TestCaseImpl .TestItemTitle {
+				color: blue;
+				border-top: 2px solid blue;
+				border-bottom: 2px solid blue;
+				margin-bottom: 0.5em;
+			}
+
+			.TestCaseImpl .TestItemOutcome {
+				border-top: 2px solid blue;
+				border-bottom: 2px solid blue;
+			}
+
+			.ApiCallImpl .TestItemTitle{
+				color: blue;
+				border-top: 1px solid blue;
+				border-bottom: 1px solid blue;
+				padding-top: 0.1em;
+				padding-bottom: 0.1em;
+				margin-top: 0.25em;
+				margin-bottom: 0.25em;
+			}
+
+			.ApiCallImpl .TestItemOutcome {
+				border-top: 1px solid blue;
+				border-bottom: 1px solid blue;
+				padding-top: 0.1em;
+				padding-bottom: 0.1em;
+				margin-top: 0.25em;
+			}
+
+			.TestItemOutcome {
+				padding-left: 20px;
+				padding-top: 0.1em;
+				padding-bottom: 0.1em;
+				clear: both;
+			}
+			
+			.TestItemOutcome.Successful {
+				color: green;
+				background: url('../../../successful_16x16.gif') no-repeat 0 0.15em;
+			}
+
+			.TestItemOutcome.Failed {
+				color: red;
+				background: url('../../../failed_16x16.gif') no-repeat 0 0.15em;
+				font-weight: bold;
+			}
+
+			.TestItemOutcome.Skipped {
+				color: orange;
+				background: url('../../../skipped_16x16.gif') no-repeat 0 0.15em;
+			}
+
+			.TestOutput {
+				font: 0.9em arial;
+				color: black;
+				margin-top: 0.15em;
+				margin-bottom: 0.15em;
+			}
+
+			.TestOutput.err {
+				font-weight: bold;
+				color: red;
+			}
+
+			.TestOutput.war {
+				font-weight: bold;
+				color: orange;
+			}
+
+			.ApiCallImpl{
+				margin-left: 1em;
+				margin-bottom: 0.4em;
+			}
+
+			.TestCaseCallImpl{
+				margin-left: 1em;
+				margin-bottom: 0.4em;
+			}
+			
+		</style>
+	</head>
+	<body><div id='detail-body'>
+	<div style='float: right;'><img src='../../..//provar_logo_400x100.png' height='50'/></div>
+<h2><img src='../../..//testcase_16x16.png' style='height: 24; padding-top: 4px;'/> DataBindingAndRenderingMapping.testcase</h2>
+<div class='TestCaseImpl'><div class='TestItemTitle'><div style='float: right; font-size: 0.8em;'><img src='../../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>15:23:34 (00:00.000)</span></div>Start of Test Case DataBindingAndRenderingMapping.testcase</div><div class='ApiCallImpl'><div class='TestItemTitle'><div style='float: right; font-size: 0.8em;'><img src='../../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>15:23:34 (00:00.029)</span></div>Start of Test Step Salesforce Connect: LWC_Org (Test)</div><div class='TestOutput inf'>Connecting to Salesforce as LWC_Org</div><div class='TestOutput off'>Successfully connected to Salesforce as LWC_Org</div><div class='TestItemOutcome Successful'><div style='float: right; font-size: 0.8em;'><img src='../../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>15:23:38 (00:04.644)</span></div>Test Step successful.</div></div><div class='ApiCallImpl'><div class='TestItemTitle'><div style='float: right; font-size: 0.8em;'><img src='../../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>15:23:38 (00:04.653)</span></div>Start of Test Step On CqfWebPage page</div><div class='TestOutput inf'>Start of With Screen.  Connection Name: LWC_Org, target: ui:pageobject:target?pageId=pageobjects.CqfWebPage</div><div class='TestOutput inf'>Opening Chrome webdriver instance to https://login.salesforce.com/</div><div class='TestOutput off'>Successfully opened Chrome webdriver to https://login.salesforce.com/</div><div class='TestOutput inf'>Opening Page context.  Name: screen, data: null, frame: null</div><div class='TestOutput inf'>Opening Home Page</div><div class='TestOutput inf'>Opening Salesforce user home page</div><div class='TestOutput inf'>Total execution time of page loading complete check script: 26 ms</div><div class='TestOutput inf'>Total execution time for getting current window location: 28 ms</div><div class='TestOutput inf'>Total execution time of page loading complete check script: 29 ms</div><div class='TestOutput inf'>Total execution time for getting current window location: 29 ms</div><div class='TestOutput inf'>Total execution time of page loading complete check script: 26 ms</div><div class='TestOutput inf'>Total execution time for getting current window location: 25 ms</div><div class='TestOutput inf'>Total execution time of page loading complete check script: 13 ms</div><div class='TestOutput inf'>Total execution time for getting current window location: 12 ms</div><div class='TestOutput inf'>Total execution time of page loading complete check script: 16 ms</div><div class='TestOutput inf'>Total execution time for getting current window location: 17 ms</div><div class='TestOutput inf'>Total execution time of page loading complete check script: 23 ms</div><div class='TestOutput inf'>Total execution time for getting current window location: 21 ms</div><div class='TestOutput off'>Successfully opened user home page</div><div class='TestOutput inf'>Going to update browser window handles.</div><div class='TestOutput inf'>Total execution time of page loading complete check script: 19 ms</div><div class='TestOutput inf'>Total execution time for getting current window location: 21 ms</div><div class='TestOutput off'>Successfully updated browser window handles.</div><div class='ApiCallImpl'><div class='TestItemTitle'><div style='float: right; font-size: 0.8em;'><img src='../../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>15:23:57 (00:23.013)</span></div>Start of Test Step Click the More Show More Navigation Items</div><div style='float: right;' ><a target='_blank' href='../../../Artifacts/ScreenShot1'><img style='width: 150px; border: solid 2px grey;' src='../../../Artifacts/ScreenShot1'></img></a></div><div class='TestOutput inf'>Start of Interact.  Connection: LWC_Org, Locator: ui:pageobject:field?field=moreShowMoreNavigationItems&pageId=pageobjects.CqfWebPage, before wait: default, after wait: default, auto retry: ui:wait:autoRetry:timeout=10</div><div class='TestOutput inf'>Locator: ui:pageobject:field?field=moreShowMoreNavigationItems&pageId=pageobjects.CqfWebPage</div><div class='TestOutput inf'>Interaction: ui:interaction?name=action</div><div class='TestOutput inf'>Total execution time of page loading complete check script: 17 ms</div><div class='TestOutput inf'>Total execution time for getting current window location: 18 ms</div><div class='TestOutput inf'>Switched focus to main window.  URL: https://testing250-dev-ed.develop.my.salesforce.com/_ui/identity/verification/method/EmailVerificationFinishUi/e?vcsrf=fNShZZcTJ4_10ETUW6bpId7Zqnm842GZCb9FYRIlHBkpE0PFsaGYl9tQE2oft1SJTEIi1GaubYAwczVxyzHztWxICFAktuchtokeHWMcyrNmrScezOlb2T8aD3Bfo4SQgahlqiqipfieeGyV-aRZnynFZe6ZBp83rX4QTJEWWgCj2lCQeWqkQZhPkfVSqag92oVC-oEz5gqgjJuGFCGkn7WM6QUJd9Wct8cYlLU4zqJj0Ac2WYZm_3gStgJxxn0Y-LnfeoyuOwQfxlwKD8WNCunVdoBUvDurthryMoThqcitobOyVswEUYeJ2-0FDIfrBERY_fCZ2zyTsWiNqWlTeXRALridjGF0ehuJEme7YsGtUeECg9RGE59wCYRph4UxIKnioSkFYlfLld-jRjBLGmRDGIHOFMAe2LxFZ51SJSUcOwCzk42XDGibtAjjucPfNYWeDtNz2MkzF22oex9KeXYpDnsCIJBGE9g8CHa98TDqYHQD08C7ZTQldn96E1vxPxON7QUFZxmtaP3LklBRfjNmfU37A3UiA9A4DnnypjAnBWeRQs4y7-ay3o5-ICNhksNQqAwI-FbkvPg6al21br4iFdTFa9E-VcOm7pGJfDs8or72eswPtYAWMYldS3ICJgKwWtvYxJWw6S-M2mVWd6Z_UC6soWoSCEZ8tiijdRA%3D&vpol=ic&vflid=0&vfgrp=1027586899&retURL=%2Fsecur%2Ffrontdoor.jsp%3Fallp%3D1%26retURL%3D%252Fone%252Fone.app%26cshc%3D2000001MknSh000009Q6XQ%26apv%3D1%26ucs%3D1</div><div class='TestOutput inf'>Interaction: ui:interaction?name=action</div><div class='TestOutput inf'>Doing before wait.  waitUrl: default</div><div class='TestOutput inf'>End of &lt;default&gt; wait.</div><div class='TestOutput inf'>Doing Auto Retry wait.  Timeout(seconds): 10, Interval(milliseconds): 500</div><div class='TestOutput inf'>Doing Auto Retry wait.  Timeout(seconds): 10, Interval(milliseconds): 500</div><div class='TestOutput inf'>Doing Auto Retry wait.  Timeout(seconds): 10, Interval(milliseconds): 500</div><div class='TestOutput inf'>Doing Auto Retry wait.  Timeout(seconds): 10, Interval(milliseconds): 500</div><div class='TestOutput inf'>Doing Auto Retry wait.  Timeout(seconds): 10, Interval(milliseconds): 500</div><div class='TestOutput inf'>Doing Auto Retry wait.  Timeout(seconds): 10, Interval(milliseconds): 500</div><div class='TestOutput inf'>Doing Auto Retry wait.  Timeout(seconds): 10, Interval(milliseconds): 500</div><div class='TestOutput inf'>Doing Auto Retry wait.  Timeout(seconds): 10, Interval(milliseconds): 500</div><div class='TestOutput inf'>Doing Auto Retry wait.  Timeout(seconds): 10, Interval(milliseconds): 500</div><div class='TestOutput inf'>Doing Auto Retry wait.  Timeout(seconds): 10, Interval(milliseconds): 500</div><div class='TestOutput inf'>Doing Auto Retry wait.  Timeout(seconds): 10, Interval(milliseconds): 500</div><div class='TestOutput inf'>Doing Auto Retry wait.  Timeout(seconds): 10, Interval(milliseconds): 500</div><div class='TestOutput inf'>Doing Auto Retry wait.  Timeout(seconds): 10, Interval(milliseconds): 500</div><div class='TestOutput inf'>Doing Auto Retry wait.  Timeout(seconds): 10, Interval(milliseconds): 500</div><div class='TestOutput inf'>Doing Auto Retry wait.  Timeout(seconds): 10, Interval(milliseconds): 500</div><div class='TestOutput inf'>Doing Auto Retry wait.  Timeout(seconds): 10, Interval(milliseconds): 500</div><div class='TestOutput inf'>Doing Auto Retry wait.  Timeout(seconds): 10, Interval(milliseconds): 500</div><div class='TestOutput inf'>Doing Auto Retry wait.  Timeout(seconds): 10, Interval(milliseconds): 500</div><div class='TestOutput sev'>Error doing interaction.  Connection Name: LWC_Org, cause: [NoSuchElementException: No elements matched the field locator.  Field name: moreShowMoreNavigationItems&lt;br/&gt;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&lt;br/&gt;Build info: version: '4.16.1', revision: '9b4c83354e'&lt;br/&gt;System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'&lt;br/&gt;Driver info: driver.version: ProvarSeleniumDriver]</div><div class='TestOutput inf'>Going to update browser window handles.</div><div class='TestOutput off'>Successfully updated browser window handles.</div><div class='TestOutput inf'>Going to update browser window handles.</div><div class='TestOutput off'>Successfully updated browser window handles.</div><div class='TestItemOutcome Failed'><div style='float: right; font-size: 0.8em;'><img src='../../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>15:24:12 (00:38.405)</span></div>Test Step failed.</div></div><div class='ApiCallImpl'><div class='TestItemTitle'>Test Step Click the null SKIPPED</div></div><div class='TestOutput sev'>One or more Sub-Test Steps failed.</div><div class='TestOutput inf'>Closing Page context.  Name: screen, data: null, frame: null</div><div class='TestOutput inf'>Main window reselected.  Window: main</div><div class='TestOutput inf'>Total execution time of page loading complete check script: 26 ms</div><div class='TestOutput inf'>Total execution time for getting current window location: 21 ms</div><div class='TestOutput inf'>Switched focus to main window.  URL: https://testing250-dev-ed.develop.my.salesforce.com/_ui/identity/verification/method/EmailVerificationFinishUi/e?vcsrf=fNShZZcTJ4_10ETUW6bpId7Zqnm842GZCb9FYRIlHBkpE0PFsaGYl9tQE2oft1SJTEIi1GaubYAwczVxyzHztWxICFAktuchtokeHWMcyrNmrScezOlb2T8aD3Bfo4SQgahlqiqipfieeGyV-aRZnynFZe6ZBp83rX4QTJEWWgCj2lCQeWqkQZhPkfVSqag92oVC-oEz5gqgjJuGFCGkn7WM6QUJd9Wct8cYlLU4zqJj0Ac2WYZm_3gStgJxxn0Y-LnfeoyuOwQfxlwKD8WNCunVdoBUvDurthryMoThqcitobOyVswEUYeJ2-0FDIfrBERY_fCZ2zyTsWiNqWlTeXRALridjGF0ehuJEme7YsGtUeECg9RGE59wCYRph4UxIKnioSkFYlfLld-jRjBLGmRDGIHOFMAe2LxFZ51SJSUcOwCzk42XDGibtAjjucPfNYWeDtNz2MkzF22oex9KeXYpDnsCIJBGE9g8CHa98TDqYHQD08C7ZTQldn96E1vxPxON7QUFZxmtaP3LklBRfjNmfU37A3UiA9A4DnnypjAnBWeRQs4y7-ay3o5-ICNhksNQqAwI-FbkvPg6al21br4iFdTFa9E-VcOm7pGJfDs8or72eswPtYAWMYldS3ICJgKwWtvYxJWw6S-M2mVWd6Z_UC6soWoSCEZ8tiijdRA%3D&vpol=ic&vflid=0&vfgrp=1027586899&retURL=%2Fsecur%2Ffrontdoor.jsp%3Fallp%3D1%26retURL%3D%252Fone%252Fone.app%26cshc%3D2000001MknSh000009Q6XQ%26apv%3D1%26ucs%3D1</div><div class='TestOutput inf'>Going to update browser window handles.</div><div class='TestOutput off'>Successfully updated browser window handles.</div><div class='TestItemOutcome Failed'><div style='float: right; font-size: 0.8em;'><img src='../../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>15:24:15 (00:41.143)</span></div>Test Step failed.</div></div><div class='ApiCallImpl'><div class='TestItemTitle'>Test Step On SF conditionalRendering component in Data Binding & Rendering SKIPPED</div></div><div class='TestItemOutcome Failed'><div style='float: right; font-size: 0.8em;'><img src='../../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>15:24:15 (00:41.148)</span></div>Test Case failed.</div></div><div class='TestOutput inf'>Handling managed resource.  Name: LWC_Org</div><div class='TestOutput inf'>Total execution time of page loading complete check script: 21 ms</div><div class='TestOutput inf'>Total execution time for getting current window location: 15 ms</div><div class='TestOutput off'>Salesforce Connection handled successfully.  Name: LWC_Org</div>
+	</div></body>
+</html>
