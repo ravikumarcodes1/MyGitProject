@@ -34,8 +34,9 @@
 				testEnvironmentSecretsPassword="${testenvironment.secretspassword}"
 				sendEmail="NO"
 				invokeTestRunMonitor="true"
+				licensePath="../licenses"
 				>
-		
+		      
 			 <fileset dir="../tests/LWC_ORG"><include name="DataBindingAndRenderingMapping.testcase"/></fileset>
 			<emailProperties sendEmail="false" primaryRecipients="" ccRecipients="" bccRecipients="" emailSubject="Provar test run report" attachExecutionReport="false" attachZip="false"/>
 		</Run-Test-Case>

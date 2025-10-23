@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite failures="1" hostname="DESKTOP-HD1KSA6" id="0" name="CqfProject/tests" package="" skipped="0" tests="1" time="19.029" timestamp="Thu Oct 23 15:39:00 IST 2025">
+	    <properties>
+		      <property name="excludeCallableTestCases" value="true" />
+
+		      <property name="testEnvironment" value="" />
+
+		      <property name="pluginOutputLevel" value="WARNING" />
+
+		      <property name="projectPath" value=".." />
+
+		      <property name="salesforceMetadataCache" value="Reuse" />
+
+		      <property name="resultsPathDisposition" value="Increment" />
+
+		      <property name="testOutputLevel" value="INFO" />
+
+		      <property name="webBrowserType" value="Chrome" />
+
+		      <property name="resultsPath" value="../ANT/Results" />
+
+		      <property name="webBrowserConfiguration" value="Full Screen" />
+
+		      <property name="projectCachePath" value="C:\Users\ravi.kumar\MyGitProject\ANT\..\..\.provarCaches" />
+
+	    </properties>
+
+	    <testcase classname="tests/LWC_ORG\DataBindingAndRenderingMapping.testcase" name="DataBindingAndRenderingMapping.testcase" time="18.963">
+		      <failure message="Execution failed"><![CDATA[Error doing interaction.  Connection Name: LWC_Org, cause: [NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=141.0.7390.66)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver$ByteBuddy$rdM1pOVA]]]></failure>
+
+	    </testcase>
+
+  </testsuite>
+</testsuites>
